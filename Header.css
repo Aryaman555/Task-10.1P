@@ -1,0 +1,64 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0074D9; 
+    padding: 20px;
+    color: white; 
+  }
+  
+  .left {
+    display: flex;
+    align-items: left;
+  }
+  
+  .left h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .center {
+    flex-grow: 1;
+    margin: 0 20px;
+  }
+  
+  .search {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post,
+  .login {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .post:hover,
+  .login:hover {
+    color: #FF4136; 
+  }
+  
+  .login {
+    border: 2px solid #FF4136; 
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #FF4136; 
+  }
+  
+  .login:hover {
+    background-color: #FF4136; 
+    color: white; 
+  }
+  
