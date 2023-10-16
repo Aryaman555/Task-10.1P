@@ -5,8 +5,8 @@ const mailgun = require('mailgun-js');
 const app = express();
 
 // Configuring Mailgun API and Domain
-const mailgunApiKey = '5ae11eebc55fa249af557c86fae3ec99-5465e583-1faeedce';
-const mailgunDomain = 'sandboxa36876a7bb0f49a4a3a781014376d275.mailgun.org';
+const mailgunApiKey = 'MailgunApi';
+const mailgunDomain = 'Domain';
 const mg = mailgun({ apiKey: mailgunApiKey, domain: mailgunDomain });
 
 // BodyParser middleware to parse form data
