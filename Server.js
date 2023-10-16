@@ -22,7 +22,7 @@ app.post('/subscribe', (req, res) => {
     const { email } = req.body;
   
     const data = {
-      from: 'Aryaman Dhir <aryaman4766.be22@chitkara.edu.in>',
+      from: 'Aryaman Dhir <youremail>',
       to: email,
       subject: 'Welcome Email',
       text: 'Thank you for subscribing to DEV Deakin newsletter!',
